@@ -60,11 +60,6 @@ output "bedrockagentcore_memories_tags_all" {
 }
 
 # --- aws_bedrockagentcore_memory_strategy ---
-output "bedrockagentcore_memory_strategies_id" {
-  description = "Map of id values across all bedrockagentcore_memory_strategies, keyed the same as var.bedrockagentcore_memory_strategies"
-  value       = module.bedrockagentcore_memory_strategies.bedrockagentcore_memory_strategies_id
-}
-
 output "bedrockagentcore_memory_strategies_configuration" {
   description = "Map of configuration values across all bedrockagentcore_memory_strategies, keyed the same as var.bedrockagentcore_memory_strategies"
   value       = module.bedrockagentcore_memory_strategies.bedrockagentcore_memory_strategies_configuration
